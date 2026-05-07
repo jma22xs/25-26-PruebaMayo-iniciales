@@ -11,4 +11,4 @@ app.include_router(items.router)
 # Código que se añade
 @app.get("/status")
 def version():
-    return {"status": "Salguero García,Juan Manuel - v.xx"}
+    return {"status": "Salguero García, Juan Manuel - v.xx"}
